@@ -7,4 +7,4 @@ IDE: IntelliJ IDEA 14.1
 
 JDK: jdk1.8
 
-if have an issue
+if have an issue, please...
