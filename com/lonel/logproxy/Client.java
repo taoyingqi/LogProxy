@@ -10,6 +10,6 @@ public class Client {
 
         String name = UserManager.findUser("0003");
         System.out.println("Client.main() --- " + name);
-        System.out.println("");
+        System.out.println("123");
     }
 }
