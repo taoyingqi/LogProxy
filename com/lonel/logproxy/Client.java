@@ -7,6 +7,7 @@ public class Client {
     public static void main(String[] args) {
         LogHandler logHandler = new LogHandler();
         UserManager UserManager = (UserManager) logHandler.bind(new UserManagerImpl());
+
         String name = UserManager.findUser("0002");
         System.out.println("Client.main() --- " + name);
     }
